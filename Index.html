@@ -6,28 +6,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--<link rel="stylesheet" href="Estilos/normalize.css">-->
         <link rel="stylesheet" href="Estilos/estilo.css">
-        <link rel="icon" href=".ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <script defer src="js/hamburguesa.js"></script>
+        
         <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <header>
-            <h1>Primaria</h1>
-            <nav>
+            <nav class="nav">
+                <h1>Primaria</h1>
+                <button class="nav-ul-hbtn"  aria-label="Abrir menú"><i class="fa-solid fa-bars"></i></button>
                 <ul class="nav-ul">
                     <li class="nav-ul__li"> <a class="active" href="https://www.google.com/webhp?authuser=2" target="_blank">Inicio</a></li>
                     <li class="nav-ul__li"> <a href="https://www.google.com/webhp?authuser=2" target="_blank">Seguimiento</a></li>
                     <li class="nav-ul__li"> <a href="https://www.google.com/webhp?authuser=2" target="_blank">Acerca de</a></li>
+                    <input type="search" class="nav-form__input" placeholder="Buscar" style="outline:none !important">
                 </ul>
-
-                <div class="nav-form">
-                    <input type="text" class="nav-form__input" placeholder="Buscar" style="outline:none !important">
                     
-                </div>
-<!-- 
-                <div class="nav-lupa">
-                    
-                </div> -->
             </nav>
         </header>
 
